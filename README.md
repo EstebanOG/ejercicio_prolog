@@ -7,10 +7,14 @@
 
 #### Diagrama:
 
-![](https://github.com/FelipeH22/ejercicio_prolog/blob/master/assets/FamiliaProlog.png)
+![](https://github.com/FelipeH22/ejercicio_prolog/blob/master/assets/FamiliaProlog1.png)
 
-> Diagrama familiar del proyecto base.
+> Diagrama familiar 1 del proyecto base.
 
+
+![](https://github.com/FelipeH22/ejercicio_prolog/blob/master/assets/FamiliaProlog2.png)
+
+> Diagrama familiar 2 del proyecto base.
 
 #### Descripción
 
@@ -51,6 +55,8 @@ Salir de Prolog
 #### Estructura del proyecto
 + assets/
     + FamiliaProlog.png
+    + FamiliaProlog1.png
+    + FamiliaProlog2.png
 + arbol_genealogico.pl
 
 
