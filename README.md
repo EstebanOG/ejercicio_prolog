@@ -7,12 +7,12 @@
 
 #### Diagrama:
 
-![](https://github.com/FelipeH22/ejercicio_prolog/blob/master/assets/FamiliaProlog1.png)
+![](https://github.com/FelipeH22/ejercicio_prolog/blob/master/assets/FamiliaProlog_1.png)
 
 > Diagrama familiar 1 del proyecto base.
 
 
-![](https://github.com/FelipeH22/ejercicio_prolog/blob/master/assets/FamiliaProlog2.png)
+![](https://github.com/FelipeH22/ejercicio_prolog/blob/master/assets/FamiliaProlog_2.png)
 
 > Diagrama familiar 2 del proyecto base.
 
