@@ -27,13 +27,12 @@
 
 #### Ejecutar método específico
 ```
-?- hijode(Juan,Maria).
+?- hijode('Juan','Maria').
 ```
 
-salida:
+#### Resultado:
 ```
-    Juan = 'Felipe',
-    Maria = 'Esteban'
+    false
 ```
 
 Métodos disponibles:
