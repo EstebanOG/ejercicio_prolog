@@ -4,17 +4,54 @@
 
 Árbol genealógico desarrollado en Prolog
 
+
+#### Diagrama:
+
+![](https://github.com/FelipeH22/ejercicio_prolog/blob/master/assets/FamiliaProlog.png)
+
+> Diagrama familiar del proyecto base.
+
+
 #### Descripción
 
 
 
 #### Ejecutar proyecto
 ```
-~$
+~$ swipl -f arbol_genealogico.pl
 ```
-#### Estructura del proyecto
-+ arbol_genealogico.pl
 
+#### Ejecutar método específico
+```
+?- hijode(Juan,Maria).
+```
+
+salida:
+```
+    Juan = 'Felipe',
+    Maria = 'Esteban'
+```
+
+Métodos disponibles:
+
+Método | # Parámetros
+------------- | -------------
+abuelode(A,B)  | 2
+hijode(A,B)  | 2
+tiode(A,B) | 2
+bisabuelode(A,B)  | 2
+casadocon(A,B)  | 2
+esfeliz(A)  | 1
+
+Salir de Prolog
+```
+?- halt.
+```
+
+#### Estructura del proyecto
++ assets/
+    + FamiliaProlog.png
++ arbol_genealogico.pl
 
 
 #### Equipo de trabajo
