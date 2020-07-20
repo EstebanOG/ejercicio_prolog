@@ -46,6 +46,20 @@ bisabuelode(A,B)  | 2
 casadocon(A,B)  | 2
 esfeliz(A)  | 1
 
+
+Nombres disponibles:
+
+Hombres | Mujeres
+------------- | -------------
+Andres | Andrea
+Juan  | María
+Esteban | Cecilia
+Cristhian  | Gabriela
+Felipe  | Deryi
+Jacobo  | Luisa
+Antony  | Andreina
+  | Susana
+
 Salir de Prolog
 ```
 ?- halt.
