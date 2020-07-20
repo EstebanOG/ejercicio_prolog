@@ -5,6 +5,18 @@ padrede('Juan','Maria').
 padrede('Andres','Juan').
 padrede('Andrea','Juan').
 
+%Familia 2
+
+padrede('Mariana','Ricardo').
+padrede('Mariana','Cecilia').
+padrede('Ricardo','Gabriela').
+padrede('Cecilia','Deryi').
+padrede('Jacobo','Cecilia').
+padrede('Jacobo','Andreina').
+padrede('Jacobo','Antony').
+padrede('Luisa','Andreina').
+padrede('Luisa','Antony').
+padrede('Antony','Susana')
 
 %Reglas
 abuelode(A,B):-padrede(A,C),padrede(C,B).
