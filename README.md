@@ -58,7 +58,7 @@ Cristhian  | Gabriela
 Felipe  | Deryi
 Jacobo  | Luisa
 Antony  | Andreina
-  | Susana
+ --  | Susana
 
 Salir de Prolog
 ```
