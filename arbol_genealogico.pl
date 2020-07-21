@@ -16,7 +16,7 @@ padrede('Jacobo','Andreina').
 padrede('Jacobo','Antony').
 padrede('Luisa','Andreina').
 padrede('Luisa','Antony').
-padrede('Antony','Susana')
+padrede('Antony','Susana').
 
 %Reglas
 abuelode(A,B):-padrede(A,C),padrede(C,B).
@@ -30,5 +30,16 @@ esfeliz(A):-casadocon(A,_).
 nietode(A,B):-abuelode(B,A).
 bisnietode(A,B):-bisabuelode(B,A).
 primode(A,B):-tiode(C,A),padrede(C,B).
-esfamiliarde(A,B):-abuelode(A,B);abuelode(B,A);padrede(A,B);padrede(B,A);hijode(A,B);hijode(B,A);tiode(A,B);tiode(B,A);casadocon(A,B);hermanode(A,B);bisabuelode(A,B);bisabuelode(B,A);nietode(A,B);nietode(B,A);bisnietode(A,B);bisnietode(B,A);primode(A,B);primode(B,A).
+esfamiliarde(A,B):-
+abuelode(A,B),
+padrede(A,B),
+hijode(A,B),
+tiode(A,B),
+casadocon(A,B),
+hermanode(A,B),
+bisabuelode(A,B),
+nietode(A,B),
+bisnietode(A,B),
+primode(A,B),
+sobrinode(A,B).
 familiade(X,L):-findall(Y,esfamiliarde(X,Y),L).
